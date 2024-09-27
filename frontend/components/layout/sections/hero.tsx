@@ -1,7 +1,6 @@
 "use client";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,23 +20,22 @@ export const HeroSection = () => {
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
-              Experience the
+              Welcome to
+              <br></br>
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                Shadcn
+                Product Mela
               </span>
-              landing page
+              
             </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`We're more than just a tool, we're a community of passionate
-            creators. Get access to exclusive resources, tutorials, and support.`}
+            {`here is some description about the poduct mela `}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
-              <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+              Login
             </Button>
 
             <Button
@@ -49,7 +47,7 @@ export const HeroSection = () => {
                 href="https://github.com/nobruf/shadcn-landing-page.git"
                 target="_blank"
               >
-                Github respository
+                Register
               </Link>
             </Button>
           </div>

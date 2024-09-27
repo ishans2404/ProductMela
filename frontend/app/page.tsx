@@ -12,13 +12,13 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "Product Mela",
+  description: "some description",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://github.com/ishans2404/ProductMela.git",
+    title: "Product Mela - landing page",
+    description: "lorem50",
     images: [
       {
         url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
