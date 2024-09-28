@@ -5,7 +5,7 @@ from .database import Base
 product_category_association = Table(
     "product_category", Base.metadata,
     Column('product_id', Integer, ForeignKey('products.id')),
-    Column('category_id', Integer, ForeignKey('categorys.id'))
+    Column('category_id', Integer, ForeignKey('categorys.id')) # add in frontend
 )
 
 class User(Base):
