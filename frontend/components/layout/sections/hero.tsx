@@ -25,17 +25,16 @@ export const HeroSection = () => {
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
                 Product Mela
               </span>
-              
             </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`here is some description about the poduct mela `}
+            {`here is some description about the product mela `}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Login
+            <Button className="w-5/6 md:w-1/4 font-bold group/arrow" asChild>
+              <Link href="/login">Login</Link>
             </Button>
 
             <Button
