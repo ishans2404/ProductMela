@@ -34,7 +34,7 @@ export default function Login() {
         <form className="space-y-4">
           <Input placeholder="Email" className="bg-transparent text-white placeholder:text-gray-300" />
           <Input type="password" placeholder="Password" className="bg-transparent text-white placeholder:text-gray-300" />
-          <Button type="submit" variant="destructive" className="w-full bg-white text-black hover:bg-orange-500 hover:text-white">
+          <Button type="submit" variant="destructive" className="w-full bg-white text-white hover:bg-orange-500 hover:text-white">
             Sign In
           </Button>
         </form>
